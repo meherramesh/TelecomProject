@@ -11,11 +11,6 @@ import com.ibm.cna.telecom.model.User;
 import com.ibm.cna.telecom.repository.UserRepository;
 import com.ibm.cna.telecom.service.UserService;
 
-
-/**
- *
- * @author Jeevan
- */
 @Service
 public class UserServiceImpl implements UserService {
 
