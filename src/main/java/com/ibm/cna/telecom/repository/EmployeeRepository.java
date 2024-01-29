@@ -5,10 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.ibm.cna.telecom.model.Employee;
 
-/**
-*
-* @author Chetana
-*/
 @Repository
 public interface EmployeeRepository extends CrudRepository<Employee, Serializable>{
 	
