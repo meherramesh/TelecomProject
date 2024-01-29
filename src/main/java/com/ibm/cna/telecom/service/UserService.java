@@ -4,10 +4,6 @@ import java.util.List;
 
 import com.ibm.cna.telecom.model.User;
 
-/**
-*
-* @author Chetana
-*/
 public interface UserService {
 	
 	public User loginUser(String username, String password)throws Exception;
