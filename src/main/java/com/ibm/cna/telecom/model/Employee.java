@@ -13,10 +13,6 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-/**
- *
- * @author Chetana
- */
 @Entity
 @Table(name = "emps")
 public class Employee implements Serializable {
