@@ -44,7 +44,4 @@ public class Address implements Serializable {
 	public void setState(String state) {
 		this.state = state;
 	}
-
-	
-
 }
