@@ -9,12 +9,6 @@ import com.ibm.cna.telecom.model.Employee;
 import com.ibm.cna.telecom.repository.EmployeeRepository;
 import com.ibm.cna.telecom.service.EmployeeService;
 
-
-
-/**
- *
- * @author Chetana
- */
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
