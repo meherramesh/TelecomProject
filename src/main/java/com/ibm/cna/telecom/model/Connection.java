@@ -8,10 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 //this is nothing but our pojo class
-/**
-*
-* @author Chetana
-*/
+
 @Entity
 @Table(name="connection")
 public class Connection {
@@ -38,14 +35,9 @@ public class Connection {
 	@Enumerated(EnumType.STRING)
 	private plan plandetails;
 	
-	
-	
-
-
 	public plan getPlandetails() {
 		return plandetails;
 	}
-
 
 	public void setPlandetails(plan plandetails) {
 		this.plandetails = plandetails;
@@ -134,9 +126,4 @@ public class Connection {
 		return "Connection [id=" + id + ", connectionNumber=" + connectionNumber + ", connectionPlan=" + connectionPlan
 				+ ", name=" + name + ", status=" + status + "]";
 	}
-	
-	
-	
-	
-
 }
