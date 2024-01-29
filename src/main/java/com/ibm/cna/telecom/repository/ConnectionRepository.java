@@ -6,13 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import com.ibm.cna.telecom.model.Connection;
 
-
-/**
-*
-* @author Chetana
-*/
 @Repository
 public interface ConnectionRepository extends CrudRepository<Connection, Serializable>{
 	
-
 }
